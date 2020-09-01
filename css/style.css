@@ -94,6 +94,8 @@ h3 {
 .section__subtitle {
     margin: 0;
     font-size: var(--fsize-h3);
+    font: var(--ff-secondary);
+    font-style: italic;
 }
 
 .section__subtitle--intro,
@@ -166,6 +168,8 @@ nav {
     background-blend-mode: soft-light;
     color: var(--color-light);
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .section__title--about-me {
@@ -227,10 +231,7 @@ nav {
 
 
 
-.section__subtitle {
-    font: var(--ff-secondary);
-    font-style: italic;
-}
+
 
 
 
