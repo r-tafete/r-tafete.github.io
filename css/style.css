@@ -166,6 +166,7 @@ nav {
     background-image: url(../images/siteBanner.png);
     background-size: cover;
     background-blend-mode: soft-light;
+    position: relative;
     color: var(--color-light);
     text-align: center;
     justify-content: center;
