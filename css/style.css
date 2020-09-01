@@ -178,7 +178,7 @@ nav {
     position: relative;
 }
 
-.blurb {
+.about-me__body {
     color: var(--color-dark);
     position: relative;
     text-align: center;
