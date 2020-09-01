@@ -173,7 +173,7 @@ nav {
     position: relative;
 }
 
-.section__title--projects ::after {
+.section__title--about-me ::after {
     content: '';
     display: block;
     width: 3em;
