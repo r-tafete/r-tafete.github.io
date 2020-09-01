@@ -160,7 +160,7 @@ nav {
 
 /* About Me */
 .about-me {
-    background-color: var(--color-dark);
+    background-color: var(--color-accent);
     background-image: url(../images/siteBanner.png);
     background-size: cover;
     background-blend-mode: multiply;
@@ -169,8 +169,15 @@ nav {
 }
 
 .section__title--about-me {
-    color: var(--color-accent);
+    color: var(--color-light);
     position: relative;
+}
+
+.blurb {
+    color: var(--color-dark);
+    position: relative;
+    max-width: 750px;
+
 }
 
 
@@ -179,7 +186,7 @@ nav {
 
 .section__title--academics {
     color: var(--color-dark);
-    position: relative;
+    position: center;
 }
 .section__title--academics ::after {
     content: '';
