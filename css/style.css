@@ -166,6 +166,9 @@ nav {
     background-size: cover;
     background-blend-mode: soft-light;
     position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .section__title--about-me {
