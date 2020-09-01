@@ -164,32 +164,27 @@ nav {
     background-color: var(--color-light);
     background-image: url(../images/siteBanner.png);
     background-size: cover;
-    background-blend-mode: soft-light;
-    position: relative;
-    display: flex;
-    justify-content: center;
+    background-blend-mode: soft-light; 
+    color: var(--color-dark);
+    font: var(--ff-secondary);
     text-align: center;
 }
 
 .section__title--about-me {
     color: var(--color-accent);
+    font: var(--ff-primary);
     position: relative;
-    text-align: center;
 }
 
-.about-me__body {
-    color: var(--color-dark);
-    font: var(--ff-secondary);
-    display: flex;
-    position: relative;
-    text-align: center;
-    max-width: 750px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+.section__title--about-me ::after {
+    content: '';
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--color-dark);
+    opacity: 0.25;
 }
-
-
 
 /* Academics */
 
@@ -200,10 +195,10 @@ nav {
 .section__title--academics ::after {
     content: '';
     display: block;
-    width: 3em;
+    width: 2em;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: var(--color-light);
+    background: var(--color-dark);
     opacity: 0.25;
 }
 
