@@ -172,6 +172,8 @@ nav {
     background-blend-mode: soft-light; 
     color: var(--color-dark);
     text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .section__title--about-me {
@@ -191,7 +193,7 @@ nav {
 .academics {
     background-color: var(--color-light);
     background-size: cover;
-    color: var(--color-dark);
+    color: var(--color-accent);
     text-align: center;
 }
 
