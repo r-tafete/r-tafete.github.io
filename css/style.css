@@ -184,37 +184,21 @@ nav {
 .about-me__body {
     font-family: var(--ff-secondary);
     max-width: 750px;
-}
-
-.section__title--about-me ::after {
-    content: '';
-    display: block;
-    width: 2em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background: var(--color-dark);
-    opacity: 0.25;
+    margin: 0 auto;
 }
 
 /* ACADEMICS */
 
 .academics {
-
-
+    background-color: var(--color-light);
+    background-size: cover;
+    color: var(--color-dark);
+    text-align: center;
 }
 
 .section__title--academics {
     color: var(--color-accent);
     position: relative;
-}
-.section__title--academics ::after {
-    content: '';
-    display: block;
-    width: 2em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background: var(--color-dark);
-    opacity: 0.25;
 }
 
 .subject {
