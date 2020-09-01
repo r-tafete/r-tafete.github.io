@@ -163,7 +163,7 @@ nav {
     background-color: var(--color-dark);
     background-image: url(../images/siteBanner.png);
     background-size: cover;
-    background-blend-mode: screen;
+    background-blend-mode: overlay;
     color: var(--color-light);
     text-align: center;
 }
@@ -175,8 +175,10 @@ nav {
 
 .blurb {
     color: var(--color-light);
-    position: relative;
+    position: center;
+    text-align: center;
     max-width: 750px;
+    font: var(--ff-secondary);
 
 }
 
@@ -220,6 +222,13 @@ nav {
 
     }
 
+}
+
+
+
+.section__subtitle {
+    font: var(--ff-secondary);
+    font-style: italic;
 }
 
 
