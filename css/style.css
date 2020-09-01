@@ -183,7 +183,6 @@ nav {
 
 .about-me__body {
     font-family: var(--ff-secondary);
-    max-width: 750px;
     margin: 0 auto;
 }
 
@@ -197,7 +196,7 @@ nav {
 }
 
 .section__title--academics {
-    color: var(--color-accent);
+    color: var(--color-dark);
     position: relative;
 }
 
@@ -207,7 +206,7 @@ nav {
 }
 
 .classList {
-    font: var(--ff-secondary);
+    font-family: var(--ff-secondary);
     font-size: var(--fs-body);
 }
 
