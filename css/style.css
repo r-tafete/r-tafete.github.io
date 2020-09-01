@@ -172,8 +172,7 @@ nav {
     background-blend-mode: soft-light; 
     color: var(--color-dark);
     text-align: center;
-    margin: 0 auto;
-    max-width: 800px;
+    
 }
 
 .section__title--about-me {
@@ -181,11 +180,14 @@ nav {
     font: var(--ff-primary);
     font-size: var(--fsize-h2);
     position: relative;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .about-me__body {
     font-family: var(--ff-secondary);
     margin: 0 auto;
+    max-width: 800px;
 }
 
 /* ACADEMICS */
@@ -193,7 +195,7 @@ nav {
 .academics {
     background-color: var(--color-light);
     background-size: cover;
-    color: var(--color-accent);
+    color: var(--color-dark);
     text-align: center;
 }
 
