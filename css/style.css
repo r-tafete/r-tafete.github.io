@@ -13,9 +13,9 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --color-light: #ffeafc;
-    --color-dark: #0f0613;
-    --color-accent: #620f92;
+    --color-light: #f1e9f1;
+    --color-dark: #494D5F;
+    --color-accent: #845BB3;
 
     --fsize-h1: 3rem;
     --fsize-h2: 2.25rem;
@@ -50,6 +50,11 @@ img {
 }
 
 /* typography */
+
+strong {
+    font-weight: var(--fw-bold);
+}
+
 h1, h2, h3 {
     line-height: 1.1;
     margin: 0;
@@ -67,5 +72,28 @@ h3 {
     font-size: var(--fsize-h3);
 }
 
+.section__title{
+    margin-bottom: 0.25em;
+
+}
+
+.section__title--intro strong {
+    display: block;
+}
+
+.section__title--intro {
+    font-weight: var(--fw-reg);
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: var(--fsize-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about-me {
+    background: var(--color-accent);
+    font-family: var(--ff-secondary);
+}
 
 
