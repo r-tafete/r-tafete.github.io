@@ -178,7 +178,7 @@ nav {
 
 .section__title--about-me {
     color: var(--color-accent);
-    font: var(--ff-primary);
+    font-family: var(--ff-primary);
     font-size: var(--fsize-h2);
     position: relative;
     margin: 0 auto;
@@ -201,7 +201,7 @@ nav {
 }
 
 .section__title--academics {
-    color: var(--color-accent);
+    color: var(--color-dark);
     font-family: var(--ff-primary);
     font-size: var(--fsize-h2);
     position: relative;
