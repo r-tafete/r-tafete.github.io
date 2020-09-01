@@ -175,7 +175,7 @@ nav {
 
 .blurb {
     color: var(--color-dark);
-    position: center;
+    position: relative;
     text-align: center;
     max-width: 750px;
     font: var(--ff-secondary);
@@ -188,7 +188,7 @@ nav {
 
 .section__title--academics {
     color: var(--color-dark);
-    position: center;
+    position: relative;
 }
 .section__title--academics ::after {
     content: '';
