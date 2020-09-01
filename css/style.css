@@ -110,11 +110,16 @@ h3 {
 nav {
     display: none;
 }
+
 /* intro section */
 
 .intro {
     position: relative;
 
+}
+
+.section__subtitle--intro {
+    display: inline-block;
 }
 
 .intro__img {
@@ -150,6 +155,32 @@ nav {
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
+}
+
+
+/* What I've Done (AKA Projects) */
+.projects {
+    background-color: var(--color-dark);
+    background-image: url(../images/siteBanner.png);
+    background-size: cover;
+    /*background-blend-mode: multiply;*/
+    color: var(--color-light);
+    text-align: center;
+}
+
+.section__title--projects {
+    color: var(--color-accent);
+    position: relative;
+}
+
+.section__title--projects ::after {
+    content: '';
+    display: block;
+    width: 3em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--color-light);
+    opacity: 0.25;
 }
 
 
