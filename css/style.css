@@ -78,6 +78,11 @@ h3 {
     font-size: var(--fsize-h3);
 }
 
+p {
+    font-size: var(--fs-body);
+    font: var(--ff-secondary);
+}
+
 .section__title{
     margin-bottom: 0.25em;
 
@@ -106,7 +111,7 @@ h3 {
 }
 
 
-/* header */
+/* HEADER */
 
 nav {
     display: none;
@@ -159,7 +164,7 @@ nav {
 }
 
 
-/* About Me */
+/* ABOUT ME */
 .about-me {
     background-color: var(--color-light);
     background-image: url(../images/siteBanner.png);
@@ -173,6 +178,7 @@ nav {
 .section__title--about-me {
     color: var(--color-accent);
     font: var(--ff-primary);
+    font-size: var(--fsize-h2);
     position: relative;
 }
 
@@ -186,10 +192,10 @@ nav {
     opacity: 0.25;
 }
 
-/* Academics */
+/* ACADEMICS */
 
 .section__title--academics {
-    color: var(--color-dark);
+    color: var(--color-accent);
     position: relative;
 }
 .section__title--academics ::after {
