@@ -163,18 +163,24 @@ nav {
     background-color: var(--color-dark);
     background-image: url(../images/siteBanner.png);
     background-size: cover;
-    /*background-blend-mode: multiply;*/
+    background-blend-mode: multiply;
     color: var(--color-light);
     text-align: center;
 }
 
 .section__title--about-me {
-    color: var(--color-dark);
+    color: var(--color-accent);
     position: relative;
 }
 
 
 
+/* Academics */
+
+.section__title--academics {
+    color: var(--color-dark);
+    position: relative;
+}
 .section__title--academics ::after {
     content: '';
     display: block;
@@ -185,9 +191,14 @@ nav {
     opacity: 0.25;
 }
 
-.classes {
+.subject {
     max-width: 500px;
     margin: 0 auto;
+}
+
+.classList {
+    font: var(--ff-secondary);
+    font-size: var(--fs-body);
 }
 
 @media (min-width: 800px) {
@@ -197,10 +208,11 @@ nav {
         margin: 0 auto;
     }
 
-    .classes + .classes {
+    .subject + .subject {
         margin-left: 2em;
 
     }
+
 }
 
 
