@@ -7,8 +7,8 @@
 /* custom properties */
 
 :root {
-    --ff-primary: "Roboto Slab", serif;
-    -ff-secondary: "Open Sans", sans-serif;
+    --ff-secondary: 'Open Sans', sans-serif;
+    --ff-primary: 'Roboto Slab', serif;
 
     --fw-reg: 300;
     --fw-bold: 900;
