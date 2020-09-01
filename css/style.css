@@ -98,8 +98,9 @@ p {
 
 .section__subtitle {
     margin: 0;
+    margin-bottom: 10px;
     font-size: var(--fsize-h3);
-    font: var(--ff-secondary);
+    font-family: var(--ff-secondary);
     font-style: italic;
 }
 
@@ -200,9 +201,18 @@ nav {
 }
 
 .section__title--academics {
-    color: var(--color-dark);
+    color: var(--color-accent);
+    font-family: var(--ff-primary);
+    font-size: var(--fsize-h2);
     position: relative;
 }
+
+.section__subtitle--academics {
+    margin-bottom: 20px;
+    font-family: var(--ff-secondary);
+    color: var(--color-accent);
+}
+
 
 .subject {
     max-width: 500px;
@@ -212,6 +222,9 @@ nav {
 .classList {
     font-family: var(--ff-secondary);
     font-size: var(--fs-body);
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
 }
 
 @media (min-width: 800px) {
