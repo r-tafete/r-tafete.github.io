@@ -173,7 +173,9 @@ nav {
     position: relative;
 }
 
-.section__title--about-me ::after {
+
+
+.section__title--academics ::after {
     content: '';
     display: block;
     width: 3em;
@@ -181,6 +183,24 @@ nav {
     margin: 0.5em auto 1em;
     background: var(--color-light);
     opacity: 0.25;
+}
+
+.classes {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .classes {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .classes + .classes {
+        margin-left: 2em;
+
+    }
 }
 
 
