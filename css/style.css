@@ -98,8 +98,7 @@ h3 {
     font-style: italic;
 }
 
-.section__subtitle--intro,
-.section__subtitle--about-me {
+.section__subtitle--intro{
     background: var(--color-accent);
     padding: 0.25em 1em;
     font-family: var(--ff-secondary);
