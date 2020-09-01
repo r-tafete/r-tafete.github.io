@@ -176,9 +176,13 @@ nav {
 .about-me__body {
     color: var(--color-dark);
     font: var(--ff-secondary);
+    display: flex;
     position: relative;
     text-align: center;
     max-width: 750px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
