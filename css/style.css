@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* custom properties */
+
+:root {
+    --ff-primary: "Roboto Slab", serif;
+    -ff-secondary: "Open Sans", sans-serif;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --color-light: #ffeafc;
+    --color-dark: #0f0613;
+    --color-accent: #620f92;
+
+    --fsize-h1: 3rem;
+    --fsize-h2: 2.25rem;
+    --fsize-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fsize-h1: 4.5rem;
+        --fsize-h2: 3.75rem;
+        --fsize-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+
+}
+
+/* General properties */
+
+body {
+    background: var(--color-light);
+    color: var(--color-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* typography */
+h1, h2, h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--fsize-h1);
+}
+
+h2 {
+    font-size: var(--fsize-h2);
+}
+
+h3 {
+    font-size: var(--fsize-h3);
+}
+
+
+
