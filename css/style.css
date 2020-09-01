@@ -158,8 +158,8 @@ nav {
 }
 
 
-/* What I've Done (AKA Projects) */
-.projects {
+/* About Me */
+.about-me {
     background-color: var(--color-dark);
     background-image: url(../images/siteBanner.png);
     background-size: cover;
@@ -168,8 +168,8 @@ nav {
     text-align: center;
 }
 
-.section__title--projects {
-    color: var(--color-accent);
+.section__title--about-me {
+    color: var(--color-dark);
     position: relative;
 }
 
