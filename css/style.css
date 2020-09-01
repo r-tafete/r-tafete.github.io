@@ -7,8 +7,8 @@
 /* custom properties */
 
 :root {
-    --ff-secondary: 'Open Sans', sans-serif;
     --ff-primary: 'Roboto Slab', serif;
+    --ff-secondary: 'Open Sans', sans-serif;
 
     --fw-reg: 300;
     --fw-bold: 900;
@@ -171,7 +171,6 @@ nav {
     background-size: cover;
     background-blend-mode: soft-light; 
     color: var(--color-dark);
-    font: var(--ff-secondary);
     text-align: center;
 }
 
@@ -180,6 +179,11 @@ nav {
     font: var(--ff-primary);
     font-size: var(--fsize-h2);
     position: relative;
+}
+
+.about-me__body {
+    font-family: var(--ff-secondary);
+    max-width: 750px;
 }
 
 .section__title--about-me ::after {
@@ -193,6 +197,11 @@ nav {
 }
 
 /* ACADEMICS */
+
+.academics {
+
+
+}
 
 .section__title--academics {
     color: var(--color-accent);
