@@ -253,19 +253,10 @@ nav {
     
 }
 
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(2);
-    max-width: 1050px;
-    margin: 0 auto;
-}
 
 .portfolio-item {
-    width: 25%;
-    height: 0;
-    padding-bottom: 25%;
-    margin: 0 auto;
-    
+    max-width: 600px;
+    margin: 0 auto;   
 }
 
 .experience-title {
@@ -277,6 +268,7 @@ nav {
 
     font-family: var(--ff-secondary);
     font-size: var(--fs-body);
+    text-align: justify;
     margin-left: 0;
     padding: 0;
 }
@@ -284,6 +276,18 @@ nav {
 
 .languages {
     font-style: italic;
+}
+
+@media (min-width: 600px) {
+    .portfolio {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .portfolio-item + .portfolio-item {
+        margin-left: 1em;
+    }
 }
 
 
