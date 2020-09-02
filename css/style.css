@@ -220,7 +220,8 @@ nav {
     margin: 0 auto;
 }
 
-.classList {
+.classList,
+.experience-description {
     font-family: var(--ff-secondary);
     font-size: var(--fs-body);
     list-style: none;
@@ -251,6 +252,18 @@ nav {
     background-blend-mode: soft-light; 
     text-align: center;
     
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.portfolio-item {
+    background: var(--color-accent);
+    transition: opacity 250ms linear;
 }
 
 
