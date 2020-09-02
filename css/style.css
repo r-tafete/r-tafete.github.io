@@ -112,22 +112,6 @@ p {
 }
 
 
-/* HEADER */
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    max-width: 250px;
-    max-height: 100;
-}
-
-.socials-header {
-    list-style: none;
-
-}
-
 /* INTRO */
 
 .intro {
@@ -293,7 +277,7 @@ p {
 
 .btn{
     display: inline-block;
-    padding: 0.5em;
+    padding: 1em;
     background: var(--color-accent);
     color: var(--color-dark);
     text-decoration: none;
@@ -315,6 +299,7 @@ p {
 
 .contact-list {
     list-style: none;
+    color: var(--color-accent);
     display: flex;
     justify-content: center;
     margin: 2em 0;
