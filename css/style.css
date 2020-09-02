@@ -246,11 +246,14 @@ nav {
 .experiences {
     background-color: var(--color-dark);
     color: var(--color-light);
-    
     background-size: cover;
-    background-blend-mode: soft-light; 
     text-align: center;
     
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 
@@ -268,7 +271,7 @@ nav {
 
     font-family: var(--ff-secondary);
     font-size: var(--fs-body);
-    text-align: justify;
+    text-align: left;
     margin-left: 0;
     padding: 0;
 }
@@ -276,18 +279,6 @@ nav {
 
 .languages {
     font-style: italic;
-}
-
-@media (min-width: 600px) {
-    .portfolio {
-        display: flex;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .portfolio-item + .portfolio-item {
-        margin-left: 1em;
-    }
 }
 
 
