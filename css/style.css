@@ -253,18 +253,18 @@ nav {
 
 .portfolio {
     display: grid;
-    max-width: 850px;
+    max-width: 1200px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 0 auto;
 }
 
 
 .portfolio-item {
-    margin: 0 auto;   
+    margin-left: 1em;   
 }
 
 .experience-title {
-    color: var(--color-accent);
+    color: var(--color-light);
     font-style: var(--fw-bold);
 }
 
@@ -279,12 +279,6 @@ nav {
 
 .languages {
     font-style: italic;
-}
-
-@media (min-width: 400px) {
-    .portfolio-item + .portfolio-item {
-        margin-left: 1em;
-    }
 }
 
 
