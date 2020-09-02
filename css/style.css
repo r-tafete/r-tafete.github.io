@@ -256,14 +256,15 @@ nav {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+    grid-template-columns: repeat(2, minmax(300, 1fr));
     max-width: 900px;
     margin: 0 auto;
 }
 
 .portfolio-item {
-    background: var(--color-accent);
-    transition: opacity 250ms linear;
+    max-width: 500px;
+    margin: 0 auto;
+    
 }
 
 
