@@ -182,7 +182,7 @@ p {
 .about-me__body {
     font-family: var(--ff-secondary);
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 /* ACADEMICS */
