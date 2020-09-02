@@ -255,16 +255,16 @@ nav {
     display: grid;
     max-width: 850px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: 0 auto;
 }
 
 
 .portfolio-item {
-    max-width: 425px;
     margin: 0 auto;   
 }
 
 .experience-title {
-    color: var(--color-light);
+    color: var(--color-accent);
     font-style: var(--fw-bold);
 }
 
