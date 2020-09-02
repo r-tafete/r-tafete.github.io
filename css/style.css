@@ -277,7 +277,7 @@ p {
 
 .btn{
     display: inline-block;
-    padding: 1em;
+    padding: 1.25em;
     background: var(--color-accent);
     color: var(--color-dark);
     text-decoration: none;
