@@ -112,7 +112,23 @@ p {
 }
 
 
-/* intro section */
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 250px;
+    max-height: 100;
+}
+
+.socials-header {
+    list-style: none;
+
+}
+
+/* INTRO */
 
 .intro {
     position: relative;
@@ -277,7 +293,7 @@ p {
 
 .btn{
     display: inline-block;
-    padding: 2em;
+    padding: 0.5em;
     background: var(--color-accent);
     color: var(--color-dark);
     text-decoration: none;
@@ -294,7 +310,7 @@ p {
     color: var(--color-accent);
     text-align: center;
     padding: 2.5em 0;
-    font-size: var(--fsize-h3);
+    font-size: var(--fsize-h2);
 }
 
 .contact-list {
@@ -307,6 +323,7 @@ p {
 
 .contact-list__item {
     margin: 0 0.5em;
+    color: var(--color-accent)
     
 }
 
