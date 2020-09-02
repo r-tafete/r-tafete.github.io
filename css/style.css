@@ -261,7 +261,9 @@ nav {
 }
 
 .portfolio-item {
-    max-width: 500px;
+    width: 25%;
+    height: 0;
+    padding-bottom: 25%;
     margin: 0 auto;
     
 }
@@ -272,6 +274,7 @@ nav {
 }
 
 .experience-description {
+
     font-family: var(--ff-secondary);
     font-size: var(--fs-body);
     margin-left: 0;
