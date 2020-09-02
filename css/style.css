@@ -253,18 +253,18 @@ nav {
 
 .portfolio {
     display: grid;
-    max-width: 1200px;
+    max-width: 1300px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 0 auto;
 }
 
 
 .portfolio-item {
-    margin-left: 1em;   
+    margin-left: 2em;   
 }
 
 .experience-title {
-    color: var(--color-light);
+    color: var(--color-accent);
     font-style: var(--fw-bold);
 }
 
@@ -281,6 +281,17 @@ nav {
     font-style: italic;
 }
 
+.btn{
+    display: inline-block;
+    padding: 0.5em 1e.5em;
+    background: var(--color-accent);
+    color: var(--color-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: var(--fw-bold);
+}
 
 
 
