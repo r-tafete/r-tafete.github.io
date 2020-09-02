@@ -287,6 +287,34 @@ p {
     font-weight: var(--fw-bold);
 }
 
+/* FOOTER */
+
+.footer {
+    background: var(--color-light);
+    color: var(--color-accent);
+    text-align: center;
+    padding: 2.5em 0;
+    font-size: var(--fsize-h3);
+}
+
+.contact-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0;
+}
+
+.contact-list__item {
+    margin: 0 0.5em;
+    
+}
+
+.contact-list__link {
+    padding: 0.5em;
+    cursor: pointer;
+}
+
 
 
 
