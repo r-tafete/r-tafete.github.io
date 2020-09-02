@@ -253,22 +253,22 @@ nav {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    max-width: 850px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 
 .portfolio-item {
-    max-width: 600px;
+    max-width: 425px;
     margin: 0 auto;   
 }
 
 .experience-title {
-    color: var(--color-accent);
+    color: var(--color-light);
     font-style: var(--fw-bold);
 }
 
 .experience-description {
-
     font-family: var(--ff-secondary);
     font-size: var(--fs-body);
     text-align: left;
@@ -281,7 +281,11 @@ nav {
     font-style: italic;
 }
 
-
+@media (min-width: 400px) {
+    .portfolio-item + .portfolio-item {
+        margin-left: 1em;
+    }
+}
 
 
 
