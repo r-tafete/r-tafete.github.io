@@ -207,7 +207,8 @@ nav {
     position: relative;
 }
 
-.section__subtitle--academics {
+.section__subtitle--academics, 
+.section__subtitle--experiences {
     margin-bottom: 20px;
     font-family: var(--ff-secondary);
     color: var(--color-accent);
@@ -239,6 +240,17 @@ nav {
 
     }
 
+}
+
+/* EXPERIENCES */
+.experiences {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    
+    background-size: cover;
+    background-blend-mode: soft-light; 
+    text-align: center;
+    
 }
 
 
