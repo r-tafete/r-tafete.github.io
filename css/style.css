@@ -220,8 +220,7 @@ nav {
     margin: 0 auto;
 }
 
-.classList,
-.experience-description {
+.classList {
     font-family: var(--ff-secondary);
     font-size: var(--fs-body);
     list-style: none;
@@ -256,8 +255,8 @@ nav {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(2, minmax(300, 1fr));
-    max-width: 900px;
+    grid-template-columns: repeat(2);
+    max-width: 1050px;
     margin: 0 auto;
 }
 
@@ -265,6 +264,23 @@ nav {
     max-width: 500px;
     margin: 0 auto;
     
+}
+
+.experience-title {
+    color: var(--color-accent);
+    font-style: var(--fw-bold);
+}
+
+.experience-description {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-body);
+    margin-left: 0;
+    padding: 0;
+}
+
+
+.languages {
+    font-style: italic;
 }
 
 
