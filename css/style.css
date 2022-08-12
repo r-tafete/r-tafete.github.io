@@ -286,6 +286,7 @@ p {
     text-transform: uppercase;
     font-weight: var(--fw-bold);
     width: 27vw;
+    margin-top: 5vh;
 }
 
 /* FOOTER */
