@@ -285,6 +285,8 @@ p {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: var(--fw-bold);
+    position: absolute;
+    right: 50%;
 }
 
 /* FOOTER */
