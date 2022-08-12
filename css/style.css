@@ -277,7 +277,7 @@ p {
 
 .btn{
     display: inline-block;
-    padding: 1.25em;
+    padding: 1.2em;
     background: var(--color-accent);
     color: var(--color-dark);
     text-decoration: none;
@@ -285,6 +285,7 @@ p {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: var(--fw-bold);
+    width: 27vw;
 }
 
 /* FOOTER */
